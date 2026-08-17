@@ -2,6 +2,8 @@
 
 
 
+
+
 A complete batch data pipeline that takes Zomato-style food delivery data from raw CSVs all the way to AI-powered analytics:
 
 Zomato/Food Delivery Dataset → Amazon S3 → Snowflake → dbt → Airflow → AI (OpenAI)
@@ -127,5 +129,6 @@ python ai/enrich_reviews.py
 streamlit run ai/rag_chat.py      # chat with reviews
 streamlit run ai/text_to_sql.py   # chat with the warehouse
 ```
-#   Z o m a t o _ A I _ D a t a _ E n g i n e e r i n g _ P r o j e c t  
+#   Z o m a t o _ A I _ D a t a _ E n g i n e e r i n g _ P r o j e c t 
+ 
  
